@@ -1,0 +1,6 @@
+deployment:
+  publish:
+    owner: obartra
+    branch: master
+    heroku:
+      appname: osreywedding
