@@ -1,0 +1,15 @@
+{
+  "name": "Wedding",
+  "version": "1.0.0",
+  "description": "Oscar and Elrey wedding page",
+  "main": "index.html",
+  "repository": "https://github.com/obartra/wedding",
+  "author": "Elrey and Oscar",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "0.10.0"
+  },
+  "scripts": {
+    "start": "http-server ."
+  }
+}
