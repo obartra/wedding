@@ -124,7 +124,7 @@ h1 {
 }
 h1,
 h2 {
-  font-family: Quicksand, sans-serif;
+  font-family: brandon-grotesque, sans-serif;
   text-transform: uppercase;
 }
 h2 {
@@ -152,9 +152,6 @@ h5 {
   letter-spacing: 5px;
   margin-bottom: 0;
   font-weight: 400;
-}
-h5,
-h6 {
   text-transform: uppercase;
 }
 h6 {
@@ -173,13 +170,23 @@ strong {
 }
 @font-face {
   font-family: RainierNorth300;
-  src: url(../fonts/RainierNorth300.eot);
-  src: url(../fonts/RainierNorth300.eot?#iefix) format("embedded-opentype"),
-    url(../fonts/RainierNorth300.woff) format("woff"),
-    url(../fonts/RainierNorth300.ttf) format("truetype"),
-    url(../fonts/RainierNorth300.svg#RainierNorth300) format("svg");
+  src: url(../fonts/RainierNorth300.woff) format("woff");
   font-style: normal;
   font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: brandon-grotesque;
+  src: url(../fonts/brandon_reg.woff) format("woff");
+  font-style: normal;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: brandon-grotesque;
+  src: url(../fonts/brandon_bold.woff) format("woff");
+  font-style: normal;
+  font-weight: 700;
   text-rendering: optimizeLegibility;
 }
 .pace {
